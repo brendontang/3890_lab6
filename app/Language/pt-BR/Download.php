@@ -4,13 +4,13 @@
  * The text blocks use markdown format.
  */
 $ci4DownloadText = <<<'EOS'
-CodeIgniter 4 is the upcoming version of the framework, intended for use with PHP7.2.
+CodeIgniter 4 é a próxima versão do framework, destinada ao uso com PHP7.2.
 
-Development is underway, and the current version is {v4name}.
+O desenvolvimento está em andamento e a versão atual é {v4name}.
 
-You *could* download the V4 framework using the button below, but we encourage you 
-to check the [Installation section](https://codeigniter4.github.io/userguide/installation/index.html) 
-of the User Guide, to choose from several different ways you can install the framework :)
+Você *pode* baixar o framework V4 usando o botão abaixo, mas nós encorajamos você
+a checar a [seção de Instalação](https://codeigniter4.github.io/userguide/installation/index.html)
+do Guia do Usuário, para escolher entre várias maneiras diferentes de instalar o framework :)
 
 <ul class="nav nav-pills justify-content-center">
 	<li class="nav-item" style="margin:0.5em;">
@@ -37,10 +37,10 @@ of the User Guide, to choose from several different ways you can install the fra
 EOS;
 
 $ci3DownloadText = <<<'EOS'
-CodeIgniter {v3name} is the current version of the framework, intended for use with PHP 5.6+.
+CodeIgniter {v3name} é a versão atual do framework, destinada ao uso com PHP 5.6+.
 
-There have been a number of refinements since version 2, notably with the database, 
-session handling and encryption. Development of this version is ongoing.
+Houve vários aprimoramentos desde a versão 2, principalmente com o banco de dados,
+manipulação de sessão e criptografia. O desenvolvimento desta versão está em andamento.
 
 <ul class="nav nav-pills justify-content-center">
 	<li class="nav-item" style="margin:0.5em;">
@@ -62,11 +62,11 @@ session handling and encryption. Development of this version is ongoing.
 EOS;
 
 $ci2DownloadText = <<<'EOS'
-CodeIgniter 2.2.6 is the legacy version of the framework.
+CodeIgniter 2.2.6 é a versão legada do framework.
 
-The 2.x branch was originally released January 2011, and the last version (2.2.6) came out in October, 2015.
+O ramo 2.x foi lançada originalmente em janeiro de 2011 e a última versão (2.2.6) foi lançada em outubro, 2015.
 
-CodeIgniter 2 has reached its end-of-life for support and updates, as of October 31, 2015. No further updates are planned.
+O CodeIgniter 2 chegou ao fim da vida útil para suporte e atualizações, em 31 de outubro de 2015. Nenhuma atualização adicional está planejada.
 
 <ul class="nav nav-pills justify-content-center">
 	<li class="nav-item" style="margin:0.5em;">
@@ -79,7 +79,7 @@ EOS;
 
 return [
 	'title'				 => 'Download CodeIgniter',
-	'heading'			 => 'CodeIgniter comes in three flavors: CodeIgniter 3 (current), CodeIgniter 4 (future) and CodeIgniter 2 (legacy)',
+	'heading'			 => 'CodeIgniter vem em três sabores: CodeIgniter 3 (atual), CodeIgniter 4 (futuro) e CodeIgniter 2 (legado)',
 	'ci4Title'		 => 'CodeIgniter 4',
 	'ci4Text'			 => $ci4DownloadText,
 	'ci3Title'		 => 'CodeIgniter 3',
@@ -87,7 +87,7 @@ return [
 	'ci2Title'		 => 'CodeIgniter 2',
 	'ci2Text'			 => $ci2DownloadText,
 	'downloadButton'	 => 'Download',
-	'discussButton'		 => 'Discuss',
-	'sourcesButton'		 => 'Sources',
-	'translationsButton' => 'Translations'
+	'discussButton'		 => 'Discutir',
+	'sourcesButton'		 => 'Fontes',
+	'translationsButton' => 'Traduções'
 ];

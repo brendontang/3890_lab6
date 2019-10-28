@@ -1,5 +1,5 @@
-<?php
-namespace App{Language;
+<?php 
+namespace App\Language;
 
 use PHPUnit\Framework\TestCase;
 
@@ -18,7 +18,7 @@ class TranslationsTest extends TestCase
 	 */
 	public function translations()
 	{
-		$dir = getcwd() . '/Language/';
+		$dir = getcwd() . '/app/Language/';
 		$dh = opendir($dir);
 		$sets = [];
 		while (($file = readdir($dh)) !== false)
@@ -142,7 +142,7 @@ class TranslationsTest extends TestCase
 	 */
 	public function foundSets($locale)
 	{
-		$dir = getcwd() . '/Language/' . $locale . '/';
+		$dir = getcwd() . '/app/Language/' . $locale . '/';
 		$dh = opendir($dir);
 		$sets = [];
 		while (($file = readdir($dh)) !== false)
@@ -162,7 +162,7 @@ class TranslationsTest extends TestCase
 	 */
 	public function loadKeys($which, $locale = null)
 	{
-		$folder = $locale ? getcwd() . '/Language/' . $locale . '/' :
+		$folder = $locale ? getcwd() . '/app/Language/' . $locale . '/' :
 				getcwd() . 'app/Language/en';
 		$file = $folder . $which;
 		$keys = require $file;
@@ -170,3 +170,4 @@ class TranslationsTest extends TestCase
 	}
 
 }
+

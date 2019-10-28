@@ -10,7 +10,7 @@ EOS;
 
 
 $hatsOffToThese = <<<'EOS'
-We are grateful for past contributions from the community.
+we are grateful for past contributions from the community.
 
 Council: Andreas Pfotenhauer (Germany), David Wosnitza (Germany), and 
 Johannes Gamperl (Germany).
